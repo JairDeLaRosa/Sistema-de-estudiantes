@@ -6,7 +6,9 @@ public class Estudiante {
     private String apellido;
     private String telefono;
     private String email;
+    public Estudiante(){
 
+    }
     public Estudiante(int idEstudiante){
         this.idEstudiante= idEstudiante;
     }
